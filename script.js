@@ -40,3 +40,8 @@ document.addEventListener('DOMContentLoaded',function(event){
     // start the text animation
     StartTextAnimation(0);
   });
+
+
+  // $( "#test" ).on( "click", function( event ) {
+  //   alert("HELLO");
+  // });

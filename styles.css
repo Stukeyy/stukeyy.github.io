@@ -10,9 +10,26 @@ body {
     background-position: center;
 }
 
+
+#ukcilogo {
+ color: white;
+ font-size: 54pt;
+ margin-right: 1%;
+}
+
 #navbar {
     color: white;
     padding: 1%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#subnavbar {
+    font-size: 16px;
+    border-top: 1px;
+    border-top-style: dashed;
+    border-top-color: pink;
+    width: 100%;
+    color: white;
+    padding: 0.5%;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -22,7 +39,7 @@ body {
 }
 
 .nav-item {
-    padding: 1%;
+    margin-left: 1%;
 }
 
 .nav-link {
@@ -41,16 +58,18 @@ body {
     color: white;
     text-transform: uppercase;
 }
+
+/* This is especially for tpewriter effect on index page city hall banner, dont assign span to any other tags - sorry! */
 span {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
 }
+
 @keyframes caret {
     50% {
         border-color: transparent;
     }
 }
-
 
 #bodyContent {
     margin-top: 1%;
@@ -66,6 +85,15 @@ span {
     background-color: black;
 }
 
+#footerukcilogo {
+    margin-bottom: 5%;
+}
+#footeruulogo {
+    width: 160px;
+    height: 100px;
+}
+
+
 
 /* // X-Small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
@@ -77,11 +105,24 @@ span {
         background-repeat: no-repeat;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
     }
+
+    .subnavlink {
+        padding: 1%;
+    }
+
     #ukcibanner {
         height: 260px;
     }
+
     #ukciannouncement {
         font-size: 3em;
+    }
+
+    #footerukcilogo {
+        margin-bottom: 2%;
+    }
+    #footeruulogo {
+        margin-bottom: 2%;
     }
 }
 
@@ -92,11 +133,21 @@ span {
         background-repeat: no-repeat;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
     }
+
+    .subnavlink {
+        padding: 0.15%;
+    }
+
     #ukcibanner {
         height: 260px;
     }
+
     #ukciannouncement {
         font-size: 3em;
+    }
+
+    #footerukcilogo {
+        margin-bottom: 5%;
     }
 }
 
@@ -107,11 +158,21 @@ span {
         background-repeat: no-repeat;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .3);
     }
+
+    .subnavlink {
+        padding: 0.15%;
+    }
+
     #ukcibanner {
         height: 500px;
     }
+
     #ukciannouncement {
         font-size: 4em;
+    }
+
+    #footerukcilogo {
+        margin-bottom: 5%;
     }
 }
 
@@ -122,11 +183,21 @@ span {
         background-repeat: no-repeat;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .3);
     }
+
+    .subnavlink {
+        padding: 0.15%;
+    }
+
     #ukcibanner {
         height: 500px;
     }
+
     #ukciannouncement {
         font-size: 4em;
+    }
+
+    #footerukcilogo {
+        margin-bottom: 5%;
     }
 }
 
@@ -137,10 +208,20 @@ span {
         background-repeat: no-repeat;
         box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .3);
     }
+
+    .subnavlink {
+        padding: 0.15%;
+    }
+
     #ukcibanner {
         height: 500px;
     }
+
     #ukciannouncement {
         font-size: 4em;
+    }
+
+    #footerukcilogo {
+        margin-bottom: 5%;
     }
 }
