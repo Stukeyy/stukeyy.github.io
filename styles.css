@@ -59,6 +59,23 @@ body {
     text-transform: uppercase;
 }
 
+#keyinfotitle, #callforpapertitle, #topicsofinteresttitle {
+    text-align: center;
+}
+
+.keyinfobody {
+    text-align: center;
+}
+
+.keydate {
+    padding-bottom: 0.1%;
+}
+
+.topicofinterest {
+    text-align: center;
+    width: 100%;
+}
+
 /* This is especially for tpewriter effect on index page city hall banner, dont assign span to any other tags - sorry! */
 span {
     border-right: .05em solid;
