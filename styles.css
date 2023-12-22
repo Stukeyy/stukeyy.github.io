@@ -12,9 +12,9 @@ body {
 
 
 #ukcilogo {
-    color: white;
-    font-size: 54pt;
-    margin-right: 1%;
+ color: white;
+ font-size: 54pt;
+ margin-right: 1%;
 }
 
 #navbar {
@@ -22,7 +22,6 @@ body {
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.6);
 }
-
 #subnavbar {
     font-size: 16px;
     border-top: 1px;
@@ -34,15 +33,14 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-#uulogo,
-#uulogof {
+#uulogo {
     width: 160px;
     height: 100px;
 }
 
-/* .nav-item {
+.nav-item {
     margin-left: 1%;
-} */
+}
 
 .nav-link {
     color: white;
@@ -60,76 +58,6 @@ body {
     color: white;
     text-transform: uppercase;
 }
-
-#keyinfotitle,
-#callforpapertitle,
-#topicsofinteresttitle {
-    text-align: center;
-}
-
-.keyinfobody {
-    height: auto;
-    text-align: center;
-}
-
-.keydate {
-    padding-bottom: 0.1%;
-}
-
-.callforpaperbody {
-    height: 225px;
-}
-
-.registrationbody {
-    text-align: center;
-}
-
-.topicofinterest {
-    text-align: center;
-    width: 100%;
-}
-
-.address {
-    text-align: center;
-    margin-bottom: -1%;
-}
-
-.safebelfastbody {
-    height: 155px;
-}
-
-.venuebedsbody {
-    height: auto;
-    text-align: center;
-}
-
-.travelbody {
-    height: auto;
-    text-align: center;
-}
-
-#belfastMap {
-    margin: 0;
-}
-
-.accordion-button::after {
-    display:inline-block;
-    vertical-align: bottom;
-    margin-left: 1rem;
-}
-
-.accordion-collapse {
-    text-align: center;
-}
-
-.custom-bullet {
-    display: inline-block;
-    width: 5px; /* Adjust width as needed */
-    height: 5px; /* Adjust height as needed */
-    border-radius: 50%;
-    background-color: #000; /* Bullet color */
-    margin-right: 10px; /* Adjust spacing between bullet and text */
-  }
 
 /* This is especially for tpewriter effect on index page city hall banner, dont assign span to any other tags - sorry! */
 span {
@@ -160,7 +88,6 @@ span {
 #footerukcilogo {
     margin-bottom: 5%;
 }
-
 #footeruulogo {
     width: 160px;
     height: 100px;
@@ -188,37 +115,13 @@ span {
     }
 
     #ukciannouncement {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     #footerukcilogo {
         margin-bottom: 2%;
     }
-
     #footeruulogo {
-        margin-bottom: 2%;
-    }
-
-    .callforpaperbody {
-        height: auto;
-    }
-
-    .keyinfobody {
-        height: auto;
-    }
-
-    #ukcilogo {
-        font-size: 26pt;
-    }
-
-    #uulogo {
-        height: 50px;
-        width: auto;
-    }
-
-    #uulogof {
-        height: 50px;
-        width: auto;
         margin-bottom: 2%;
     }
 }
@@ -246,30 +149,6 @@ span {
     #footerukcilogo {
         margin-bottom: 5%;
     }
-
-    .callforpaperbody {
-        height: auto;
-    }
-
-    .keyinfobody {
-        height: auto;
-    }
-
-    #ukcilogo {
-        font-size: 26pt;
-    }
-
-    #uulogo {
-        height: 50px;
-        width: auto;
-    }
-
-    #uulogof {
-        height: 50px;
-        width: auto;
-        margin-bottom: 2%;
-    }
-
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -294,26 +173,6 @@ span {
 
     #footerukcilogo {
         margin-bottom: 5%;
-    }
-
-    .callforpaperbody {
-        height: 320px;
-    }
-
-    .keyinfobody {
-        height: 180px;
-    }
-
-    #ukcilogo {
-        color: white;
-        font-size: 54pt;
-        margin-right: 1%;
-    }
-
-    #uulogo,
-    #uulogof {
-        width: 160px;
-        height: 100px;
     }
 }
 
@@ -340,26 +199,6 @@ span {
     #footerukcilogo {
         margin-bottom: 5%;
     }
-
-    .callforpaperbody {
-        height: 275px;
-    }
-
-    .keyinfobody {
-        height: 180px;
-    }
-
-    #ukcilogo {
-        color: white;
-        font-size: 54pt;
-        margin-right: 1%;
-    }
-
-    #uulogo,
-    #uulogof {
-        width: 160px;
-        height: 100px;
-    }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -385,28 +224,4 @@ span {
     #footerukcilogo {
         margin-bottom: 5%;
     }
-
-    .callforpaperbody {
-        height: 275px;
-    }
-
-    .keyinfobody {
-        height: 180px;
-    }
-
-    #ukcilogo {
-        color: white;
-        font-size: 54pt;
-        margin-right: 1%;
-    }
-
-    #uulogo,
-    #uulogof {
-        width: 160px;
-        height: 100px;
-    }
-}
-
-#egg {
-    cursor: pointer;
 }
