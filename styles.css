@@ -112,6 +112,25 @@ body {
     margin: 0;
 }
 
+.accordion-button::after {
+    display:inline-block;
+    vertical-align: bottom;
+    margin-left: 1rem;
+}
+
+.accordion-collapse {
+    text-align: center;
+}
+
+.custom-bullet {
+    display: inline-block;
+    width: 5px; /* Adjust width as needed */
+    height: 5px; /* Adjust height as needed */
+    border-radius: 50%;
+    background-color: #000; /* Bullet color */
+    margin-right: 10px; /* Adjust spacing between bullet and text */
+  }
+
 /* This is especially for tpewriter effect on index page city hall banner, dont assign span to any other tags - sorry! */
 span {
     border-right: .05em solid;
@@ -386,4 +405,8 @@ span {
         width: 160px;
         height: 100px;
     }
+}
+
+#egg {
+    cursor: pointer;
 }
