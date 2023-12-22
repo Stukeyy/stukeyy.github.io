@@ -10,43 +10,58 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
     <!-- Additional JQuery If required -->
-    <!-- <script src="https://code.jquery.com/jquery-3.7.0.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 </head>
 
 <body>
     <div id="bodyBanner" class="container-fluid">
         <div class="row">
             <div class="col">
-                  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+                <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="./index.html">
-                            <p id="ukcilogo">UKCI / 
-                            <img id="uulogo" src="./images/UUWhite.png" alt="Ulster University"> </p>
+                            <p id="ukcilogo">UKCI /
+                                <img id="uulogo" src="./images/UUWhite.png" alt="Ulster University">
+                            </p>
                         </a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="navbar-toggler-icon"></i>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="./about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./submissions.html">Submissions</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./programme.html">Programme</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./venue.html">Venue</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contact</a>
-                            </li>
-                        </ul>
-                      </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="navbar-toggler-icon"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./registration.html">Registration</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./submissions.html">Submissions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./about.html">Committee</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./programme.html">Programme</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="./venue.html" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Logistics
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="./venue.html">Venue</a></li>
+                                        <li><a class="dropdown-item" href="./venue.html">Accomodation</a></li>
+                                        <li><a class="dropdown-item" href="./venue.html">Travel</a></li>
+                                        <li><a class="dropdown-item" href="./belfast.html">Map of Belfast</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                  </nav>
+                </nav>
             </div>
         </div>
         <div id="ukcibanner" class="row">
@@ -57,16 +72,190 @@
     </div>
 
     <div id="bodyContent" class="container-fluid">
-        <h2 id="test">UKCI</h2>
+        <h2 id="keyinfotitle">Key Information</h2>
+        <hr>
         <br>
-        <div class="row">
+        <div class="row gy-3">
             <div class="col-sm-12 col-lg-6">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ea, et, vitae voluptate quia nulla officiis repudiandae placeat pariatur quidem inventore alias nemo quaerat. Eum blanditiis consequuntur possimus fuga doloremque.</p>
+                <div class="card">
+                    <div class="card-body keyinfobody">
+                        <h6 class="keydate"><strong>UKCI:</strong> Belfast, Northern Ireland, 4th - 6th September 2024
+                        </h6>
+                        <h6 class="keydate"><strong>Registration Opens:</strong> 20th May 2024</h6>
+                        <h6 class="keydate"><strong>Paper Submission Deadline:</strong> 9th June 2024</h6>
+                        <h6 class="keydate"><strong>Acceptance Notification:</strong> 14th July 2024</h6>
+                        <h6 class="keydate"><strong>Camera Ready Submission Deadline:</strong> 4th August 2024</h6>
+                    </div>
+                </div>
             </div>
             <div class="col-sm-12 col-lg-6">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ea, et, vitae voluptate quia nulla officiis repudiandae placeat pariatur quidem inventore alias nemo quaerat. Eum blanditiis consequuntur possimus fuga doloremque.</p>
+                <div class="card">
+                    <div class="card-body keyinfobody">
+                        <h6 class="keydate"><strong>Early Bird Registration Open Until:</strong> 22nd July 2024</h6>
+                        <h6 class="keydate"><strong>Early Bird Registration: </strong>£325</h6>
+                        <h6 class="keydate"><strong>Regular Registration: </strong>£375</h6>
+                        <h6 class="keydate"><strong>Early Bird Student Registration: </strong>£225</h6>
+                        <h6 class="keydate"><strong>Student Registration: </strong>£275 </h6>
+                    </div>
+                </div>
             </div>
         </div>
+        <br>
+        <br>
+        <h2 id="callforpapertitle">Call for Papers</h2>
+        <hr>
+        <br>
+        <div class="row gy-3">
+            <div class="col-sm-12 col-lg-6">
+                <div class="card">
+                    <div class="card-body callforpaperbody">
+                        <p>We are pleased to invite you to submit your original contributions to the 23rd Annual UK
+                            Workshop on
+                            Computational Intelligence, UKCI 2024, which will take place at Belfast, Ulster University,
+                            UK, on
+                            4th - 6th September 2024.</p>
+                        <p>UKCI is the premier UK event for presenting leading research on all aspects of Computational
+                            Intelligence. The aim of this event is to provide a forum for the academic community and
+                            industry to
+                            share ideas about developing and using Computational Intelligence (CI) techniques, and
+                            methods, as
+                            well as exchanging views and new ideas.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="card">
+                    <div class="card-body callforpaperbody">
+                        <p> As a research field, CI attracts a large number of scientists, engineers and practitioners
+                            working
+                            primarily in the areas of Neural Networks, Fuzzy Systems and Evolutionary Computation. UKCI
+                            2024
+                            will take place at Belfast, Ulster University. </p>
+                        <p>All submissions will be peer-reviewed. In earlier iterations of UKCI, accepted papers have
+                            been
+                            included in post-conference volumes, such as in the Springer book series Advances in
+                            Intelligent
+                            Systems and Computing, and Expert Systems (John Wiley publishers).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <h2 id="topicsofinteresttitle">Topics of Interest</h2>
+        <hr>
+        <br>
+        <div class="col-sm-12">
+            <ul class="list-group list-group-horizontal list-group-flush">
+                <li class="list-group-item topicofinterest">Topics of Interest include but are not limited to:</li>
+            </ul>
+            <br>
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item topicofinterest">Machine Learning</li>
+                <li class="list-group-item topicofinterest">Neural Networks</li>
+                <li class="list-group-item topicofinterest">Evolutionary Computation</li>
+            </ul>
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item topicofinterest">Fuzzy Systems</li>
+                <li class="list-group-item topicofinterest">Data Mining</li>
+                <li class="list-group-item topicofinterest">Evolving Systems</li>
+            </ul>
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item topicofinterest">Hybrid Methods</li>
+                <li class="list-group-item topicofinterest">Intelligent Robotics</li>
+                <li class="list-group-item topicofinterest">Cognitive Computing</li>
+            </ul>
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item topicofinterest">Deep Learning</li>
+                <li class="list-group-item topicofinterest">Applications of Computational Intelligence</li>
+                <li class="list-group-item topicofinterest">Artificial Intelligence</li>
+            </ul>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <h2 id="topicsofinteresttitle">Topics of Interest</h2>
+    <hr>
+    <br>
+    <div class="col-sm-12">
+        <ul class="list-group list-group-horizontal list-group-flush">
+            <li class="list-group-item topicofinterest">Topics of Interest include but are not limited to:</li>
+        </ul>
+        <br>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item topicofinterest">Machine Learning</li>
+            <li class="list-group-item topicofinterest">Neural Networks</li>
+            <li class="list-group-item topicofinterest">Evolutionary Computation</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item topicofinterest">Fuzzy Systems</li>
+            <li class="list-group-item topicofinterest">Data Mining</li>
+            <li class="list-group-item topicofinterest">Evolving Systems</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item topicofinterest">Hybrid Methods</li>
+            <li class="list-group-item topicofinterest">Intelligent Robotics</li>
+            <li class="list-group-item topicofinterest">Cognitive Computing</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item topicofinterest">Deep Learning</li>
+            <li class="list-group-item topicofinterest">Applications of Computational Intelligence</li>
+            <li class="list-group-item topicofinterest">Artificial Intelligence</li>
+        </ul>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="col-sm-12 col-lg-12">
+        <div class="card">
+            <div class="card-body registrationbody">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed d-block text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <strong>Previous UKCI Host Cities</strong>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <span class="custom-bullet"></span> UKCI 2023 - Birmingham <br>
+                                <span class="custom-bullet"></span> UKCI 2022 - Sheffield <br>
+                                <span class="custom-bullet"></span> UKCI 2021 - Aberystwyth <br>
+                                <span class="custom-bullet"></span> UKCI 2019 - Portsmouth <br>
+                                <span class="custom-bullet"></span> UKCI 2018 - Nottingham <br>
+                                <span class="custom-bullet"></span> UKCI2017 - Cardiff <br>
+                                <span class="custom-bullet"></span> UKCI2016 - Lancaster <br>
+                                <span class="custom-bullet"></span> UKCI 2015 - Exeter <br>
+                                <span class="custom-bullet"></span> UKCI 2014 - Bradford <br>
+                                <span class="custom-bullet"></span> UKCI 2013 - Surrey <br>
+                                <span class="custom-bullet"></span> UKCI 2012 - Edinburgh <br>
+                                <span class="custom-bullet"></span> UKCI 2011 - Manchester <br>
+                                <span class="custom-bullet"></span> UKCI 2010 - Essex <br>
+                                <span class="custom-bullet"></span> UKCI 2009 - Nottingham <br>
+                                <span class="custom-bullet"></span> UKCI 2008 - Leicester <br>
+                                <span class="custom-bullet"></span> UKCI 2007 - Aberdeen <br>
+                                <span class="custom-bullet"></span> UKCI 2006 - Leeds <br>
+                                <span class="custom-bullet"></span> UKCI 2005 - London <br>
+                                <span class="custom-bullet"></span> UKCI 2004 - Loughborough <br>
+                                <span class="custom-bullet"></span> UKCI 2003 - Bristol <br>
+                                <span class="custom-bullet"></span> UKCI 2002 - Birmingham <br>
+                                <span class="custom-bullet"></span> UKCI 2001 - Edinburgh <br>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
 
     <div id="footer" class="container-fluid">
@@ -77,22 +266,34 @@
                 </a>
                 <br>
                 <a class="navbar-brand" href="./index.html">
-                    <img id="uulogo" src="./images/UUWhite.png" alt="Ulster University">
+                    <img id="uulogof" src="./images/UUWhite.png" alt="Ulster University">
                 </a>
             </div>
             <div class="col-sm-12 col-lg-6">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About</a>
+                        <a class="nav-link" href="./registration.html">Registration</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./submissions.html">Submissions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./programme.html">Programme</a>
+                        <a class="nav-link" href="./about.html">Committee</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./venue.html">Venue</a>
+                        <a class="nav-link" href="./programme.html">Programme</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./venue.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Logistics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./venue.html">Venue</a></li>
+                            <li><a class="dropdown-item" href="./venue.html">Accomodation</a></li>
+                            <li><a class="dropdown-item" href="./venue.html">Travel</a></li>
+                            <li><a class="dropdown-item" href="./belfast.html">Map of Belfast</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contact.html">Contact</a>
@@ -106,7 +307,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    
+
     <script src="./script.js"></script>
 </body>
 
