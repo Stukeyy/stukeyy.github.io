@@ -221,6 +221,10 @@ span {
         width: auto;
         margin-bottom: 2%;
     }
+
+    .safebelfastbody {
+        height: 200px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -270,6 +274,10 @@ span {
         margin-bottom: 2%;
     }
 
+    .safebelfastbody {
+        height: 200px;
+    }
+
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -314,6 +322,10 @@ span {
     #uulogof {
         width: 160px;
         height: 100px;
+    }
+
+    .safebelfastbody {
+        height: 155px;
     }
 }
 
@@ -360,6 +372,10 @@ span {
         width: 160px;
         height: 100px;
     }
+
+    .safebelfastbody {
+        height: 155px;
+    }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -404,6 +420,10 @@ span {
     #uulogof {
         width: 160px;
         height: 100px;
+    }
+
+    .safebelfastbody {
+        height: 155px;
     }
 }
 
