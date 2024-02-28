@@ -1,44 +1,43 @@
 body {
-    background-color: white;
+  background-color: white;
 }
 
 #bodyBanner {
-    padding: 0%;
-    background-image: url("./images/cityhall.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+  padding: 0%;
+  background-image: url("./images/cityhall.jpg");
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-
 #ukcilogo {
-    color: white;
-    font-size: 54pt;
-    margin-right: 1%;
+  color: white;
+  font-size: 54pt;
+  margin-right: 1%;
 }
 
 #navbar {
-    color: white;
-    padding: 1%;
-    background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #subnavbar {
-    font-size: 16px;
-    border-top: 1px;
-    border-top-style: dashed;
-    border-top-color: pink;
-    width: 100%;
-    color: white;
-    padding: 0.5%;
-    background-color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  border-top: 1px;
+  border-top-style: dashed;
+  border-top-color: pink;
+  width: 100%;
+  color: white;
+  padding: 0.5%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #uulogo,
 #uulogof {
-    width: 160px;
-    height: 100px;
-    margin-right: 1%;
+  width: 160px;
+  height: 100px;
+  margin-right: 1%;
 }
 
 /* .nav-item {
@@ -46,459 +45,546 @@ body {
 } */
 
 .nav-link {
-    color: white;
+  color: white;
 }
 
 #ukcibanner {
-    padding-left: 1%;
-    padding-top: 1%;
+  padding-left: 1%;
+  padding-top: 1%;
 }
 
 #ukciannouncement {
-    padding-top: 1%;
-    padding-left: 1%;
-    font-size: 4em;
-    color: white;
-    text-transform: uppercase;
+  padding-top: 1%;
+  padding-left: 1%;
+  font-size: 4em;
+  color: white;
+  text-transform: uppercase;
 }
 
 #keyinfotitle,
 #callforpapertitle,
 #topicsofinteresttitle {
-    margin-top: 1%;
-    text-align: center;
+  margin-top: 1%;
+  text-align: center;
 }
 
 .reginfobody {
-    height: auto;
-    text-align: center;
+  height: auto;
+  text-align: center;
 }
 
 .keyinfobody {
-    height: auto;
-    text-align: center;
+  height: auto;
+  text-align: center;
 }
 
 .subinfobody {
-    height: auto;
-    text-align: center;
+  height: auto;
+  text-align: center;
 }
 
 .keydate {
-    padding-bottom: 0.1%;
+  padding-bottom: 0.1%;
 }
 
 .callforpaperbody {
-    height: 225px;
+  height: 225px;
 }
 
 .registrationbody {
-    text-align: center;
+  text-align: center;
 }
 
 .topicofinterest {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .address {
-    text-align: center;
-    margin-bottom: -1%;
+  text-align: center;
+  margin-bottom: -1%;
 }
 
 .safebelfastbody {
-    height: 155px;
+  height: 155px;
 }
 
 .venuebedsbody {
-    height: auto;
-    text-align: center;
+  height: auto;
+  text-align: center;
 }
 
 .travelbody {
-    height: auto;
-    text-align: center;
+  height: auto;
+  text-align: center;
 }
 
 #belfastMap {
-    margin: 0;
+  margin: 0;
 }
 
 .accordion-button::after {
-    display:inline-block;
-    vertical-align: bottom;
-    margin-left: 1rem;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 1rem;
 }
 
 .accordion-collapse {
-    text-align: center;
+  text-align: center;
 }
 
 .custom-bullet {
-    display: inline-block;
-    width: 5px; /* Adjust width as needed */
-    height: 5px; /* Adjust height as needed */
-    border-radius: 50%;
-    background-color: #000; /* Bullet color */
-    margin-right: 10px; /* Adjust spacing between bullet and text */
+  display: inline-block;
+  width: 5px; /* Adjust width as needed */
+  height: 5px; /* Adjust height as needed */
+  border-radius: 50%;
+  background-color: #000; /* Bullet color */
+  margin-right: 10px; /* Adjust spacing between bullet and text */
 }
 
 #belief2024link {
-    margin-top: -1%;
-    margin-bottom: 2%;
-    text-align: center;
+  margin-top: -1%;
+  margin-bottom: 2%;
+  text-align: center;
 }
 
 /* This is especially for tpewriter effect on index page city hall banner, dont assign span to any other tags - sorry! */
 span {
-    border-right: .05em solid;
-    animation: caret 1s steps(1) infinite;
+  border-right: 0.05em solid;
+  animation: caret 1s steps(1) infinite;
 }
 
 @keyframes caret {
-    50% {
-        border-color: transparent;
-    }
+  50% {
+    border-color: transparent;
+  }
 }
 
 #bodyContent {
-    margin-top: 1%;
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
+  margin-top: 1%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 #footer {
-    margin-top: 3%;
-    padding: 5%;
-    color: white;
-    background-color: black;
+  margin-top: 3%;
+  padding: 5%;
+  color: white;
+  background-color: black;
 }
 
 #footerukcilogo {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 #footeruulogo {
-    width: 160px;
-    height: 100px;
+  width: 160px;
+  height: 100px;
 }
 
+#airclogo {
+  margin-top: 1%;
+  width: 260px;
+  height: 100px;
+  margin-right: 1%;
+}
 
+#aircbanner {
+  margin-bottom: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
 
 /* // X-Small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 200px) {
-    #bodyBanner {
-        background-size: auto, 200px;
-        background-repeat: no-repeat;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
-    }
+  #bodyBanner {
+    background-size: auto, 200px;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  }
 
-    .subnavlink {
-        padding: 1%;
-    }
+  .subnavlink {
+    padding: 1%;
+  }
 
-    #ukcibanner {
-        height: 260px;
-    }
+  #ukcibanner {
+    height: 260px;
+  }
 
-    #ukciannouncement {
-        font-size: 2em;
-    }
+  #ukciannouncement {
+    font-size: 2em;
+  }
 
-    #footerukcilogo {
-        margin-bottom: 2%;
-    }
+  #footerukcilogo {
+    margin-bottom: 2%;
+  }
 
-    #footeruulogo {
-        margin-bottom: 2%;
-    }
+  #footeruulogo {
+    margin-bottom: 2%;
+  }
 
-    .callforpaperbody {
-        height: auto;
-    }
+  .callforpaperbody {
+    height: auto;
+  }
 
-    .keyinfobody {
-        height: auto;
-    }
+  .keyinfobody {
+    height: auto;
+  }
 
-    .reginfobody {
-        height: auto;
-    }
+  .reginfobody {
+    height: auto;
+  }
 
-    #ukcilogo {
-        font-size: 26pt;
-    }
+  #ukcilogo {
+    font-size: 26pt;
+  }
 
-    #uulogo {
-        height: 50px;
-        width: auto;
-    }
+  #uulogo {
+    height: 50px;
+    width: auto;
+  }
 
-    #uulogof {
-        height: 50px;
-        width: auto;
-        margin-bottom: 2%;
-    }
+  #uulogof {
+    height: 50px;
+    width: auto;
+    margin-bottom: 2%;
+  }
 
-    .safebelfastbody {
-        height: 200px;
-    }
+  #airclogo {
+    margin-top: 1%;
+    width: 225px;
+    height: 100px;
+    margin-right: 1%;
+    margin-bottom: 2%;
+  }
 
-    #belief2024link {
-        margin-top: -3%;
-        margin-bottom: 5%;
-        text-align: center;
-    }
+  #aircbanner {
+    margin-bottom: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+  }
+
+  .safebelfastbody {
+    height: 200px;
+  }
+
+  #belief2024link {
+    margin-bottom: 5%;
+    text-align: center;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    #bodyBanner {
-        background-size: auto, 200px;
-        background-repeat: no-repeat;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
-    }
+  #bodyBanner {
+    background-size: auto, 200px;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  }
 
-    .subnavlink {
-        padding: 0.15%;
-    }
+  .subnavlink {
+    padding: 0.15%;
+  }
 
-    #ukcibanner {
-        height: 260px;
-    }
+  #ukcibanner {
+    height: 260px;
+  }
 
-    #ukciannouncement {
-        font-size: 3em;
-    }
+  #ukciannouncement {
+    font-size: 3em;
+  }
 
-    #footerukcilogo {
-        margin-bottom: 5%;
-    }
+  #footerukcilogo {
+    margin-bottom: 5%;
+  }
 
-    .callforpaperbody {
-        height: auto;
-    }
+  .callforpaperbody {
+    height: auto;
+  }
 
-    .keyinfobody {
-        height: auto;
-    }
+  .keyinfobody {
+    height: auto;
+  }
 
-    .reginfobody {
-        height: auto;
-    }
+  .reginfobody {
+    height: auto;
+  }
 
-    #ukcilogo {
-        font-size: 26pt;
-    }
+  #ukcilogo {
+    font-size: 26pt;
+  }
 
-    #uulogo {
-        height: 50px;
-        width: auto;
-    }
+  #uulogo {
+    height: 50px;
+    width: auto;
+  }
 
-    #uulogof {
-        height: 50px;
-        width: auto;
-        margin-bottom: 2%;
-    }
+  #uulogof {
+    height: 50px;
+    width: auto;
+    margin-bottom: 2%;
+  }
 
-    .safebelfastbody {
-        height: 200px;
-    }
+  #airclogo {
+    margin-top: 1%;
+    width: 225px;
+    height: 100px;
+    margin-right: 1%;
+    margin-bottom: 2%;
+  }
 
-    #belief2024link {
-        margin-top: -2%;
-        margin-bottom: 3%;
-        text-align: center;
-    }
+  #aircbanner {
+    margin-bottom: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+  }
 
+  .safebelfastbody {
+    height: 200px;
+  }
+
+  #belief2024link {
+    margin-top: -2%;
+    margin-bottom: 3%;
+    text-align: center;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    #bodyBanner {
-        background-size: 100%, 100%;
-        background-repeat: no-repeat;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .3);
-    }
+  #bodyBanner {
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  }
 
-    .subnavlink {
-        padding: 0.15%;
-    }
+  .subnavlink {
+    padding: 0.15%;
+  }
 
-    #ukcibanner {
-        height: 500px;
-    }
+  #ukcibanner {
+    height: 500px;
+  }
 
-    #ukciannouncement {
-        font-size: 4em;
-    }
+  #ukciannouncement {
+    font-size: 4em;
+  }
 
-    #footerukcilogo {
-        margin-bottom: 5%;
-    }
+  #footerukcilogo {
+    margin-bottom: 5%;
+  }
 
-    .callforpaperbody {
-        height: 320px;
-    }
+  .callforpaperbody {
+    height: 320px;
+  }
 
-    .keyinfobody {
-        height: 200px;
-    }
+  .keyinfobody {
+    height: 200px;
+  }
 
-    .reginfobody {
-        height: 200px;
-    }
+  .reginfobody {
+    height: 200px;
+  }
 
-    #ukcilogo {
-        color: white;
-        font-size: 54pt;
-        margin-right: 1%;
-    }
+  #ukcilogo {
+    color: white;
+    font-size: 54pt;
+    margin-right: 1%;
+  }
 
-    #uulogo,
-    #uulogof {
-        width: 160px;
-        height: 100px;
-        margin-right: 1%;
-    }
+  #uulogo,
+  #uulogof {
+    width: 160px;
+    height: 100px;
+    margin-right: 1%;
+  }
 
-    .safebelfastbody {
-        height: 155px;
-    }
+  #airclogo {
+    margin-top: 1%;
+    width: 260px;
+    height: 100px;
+    margin-right: 1%;
+  }
 
-    #belief2024link {
-        margin-top: -1%;
-        margin-bottom: 2%;
-        text-align: center;
-    }
-    
+  #aircbanner {
+    margin-bottom: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+  }
+
+  .safebelfastbody {
+    height: 155px;
+  }
+
+  #belief2024link {
+    margin-top: -1%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    #bodyBanner {
-        background-size: 100%, 100%;
-        background-repeat: no-repeat;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .3);
-    }
+  #bodyBanner {
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  }
 
-    .subnavlink {
-        padding: 0.15%;
-    }
+  .subnavlink {
+    padding: 0.15%;
+  }
 
-    #ukcibanner {
-        height: 500px;
-    }
+  #ukcibanner {
+    height: 500px;
+  }
 
-    #ukciannouncement {
-        font-size: 4em;
-    }
+  #ukciannouncement {
+    font-size: 4em;
+  }
 
-    #footerukcilogo {
-        margin-bottom: 5%;
-    }
+  #footerukcilogo {
+    margin-bottom: 5%;
+  }
 
-    .callforpaperbody {
-        height: 275px;
-    }
+  .callforpaperbody {
+    height: 275px;
+  }
 
-    .keyinfobody {
-        height: 200px;
-    }
+  .keyinfobody {
+    height: 200px;
+  }
 
-    .reginfobody {
-        height: 200px;
-    }
+  .reginfobody {
+    height: 200px;
+  }
 
-    #ukcilogo {
-        color: white;
-        font-size: 54pt;
-        margin-right: 1%;
-    }
+  #ukcilogo {
+    color: white;
+    font-size: 54pt;
+    margin-right: 1%;
+  }
 
-    #uulogo,
-    #uulogof {
-        width: 160px;
-        height: 100px;
-        margin-right: 1%;
-    }
+  #uulogo,
+  #uulogof {
+    width: 160px;
+    height: 100px;
+    margin-right: 1%;
+  }
 
-    .safebelfastbody {
-        height: 155px;
-    }
+  #airclogo {
+    margin-top: 1%;
+    width: 260px;
+    height: 100px;
+    margin-right: 1%;
+  }
 
-    #belief2024link {
-        margin-top: -1%;
-        margin-bottom: 2%;
-        text-align: center;
-    }
+  #aircbanner {
+    margin-bottom: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+  }
+
+  .safebelfastbody {
+    height: 155px;
+  }
+
+  #belief2024link {
+    margin-top: -1%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    #bodyBanner {
-        background-size: 100%, 100%;
-        background-repeat: no-repeat;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .3);
-    }
+  #bodyBanner {
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  }
 
-    .subnavlink {
-        padding: 0.15%;
-    }
+  .subnavlink {
+    padding: 0.15%;
+  }
 
-    #ukcibanner {
-        height: 500px;
-    }
+  #ukcibanner {
+    height: 500px;
+  }
 
-    #ukciannouncement {
-        font-size: 4em;
-    }
+  #ukciannouncement {
+    font-size: 4em;
+  }
 
-    #footerukcilogo {
-        margin-bottom: 5%;
-    }
+  #footerukcilogo {
+    margin-bottom: 5%;
+  }
 
-    .callforpaperbody {
-        height: 275px;
-    }
+  .callforpaperbody {
+    height: 275px;
+  }
 
-    .keyinfobody {
-        height: 200px;
-    }
+  .keyinfobody {
+    height: 200px;
+  }
 
-    .reginfobody {
-        height: 200px;
-    }
+  .reginfobody {
+    height: 200px;
+  }
 
-    #ukcilogo {
-        color: white;
-        font-size: 54pt;
-        margin-right: 1%;
-    }
+  #ukcilogo {
+    color: white;
+    font-size: 54pt;
+    margin-right: 1%;
+  }
 
-    #uulogo,
-    #uulogof {
-        width: 160px;
-        height: 100px;
-        margin-right: 1%;
-    }
+  #uulogo,
+  #uulogof {
+    width: 160px;
+    height: 100px;
+    margin-right: 1%;
+  }
 
-    .safebelfastbody {
-        height: 155px;
-    }
+  #airclogo {
+    margin-top: 1%;
+    width: 260px;
+    height: 100px;
+    margin-right: 1%;
+  }
 
-    #belief2024link {
-        margin-top: -1%;
-        margin-bottom: 2%;
-        text-align: center;
-    }
+  #aircbanner {
+    margin-bottom: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+  }
+
+  .safebelfastbody {
+    height: 155px;
+  }
+
+  #belief2024link {
+    margin-top: -1%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
 }
 
 #egg {
-    cursor: pointer;
+  cursor: pointer;
 }
