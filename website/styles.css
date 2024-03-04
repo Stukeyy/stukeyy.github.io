@@ -183,19 +183,22 @@ span {
   height: 100px;
 }
 
-#airclogo {
-  margin-top: 1%;
-  width: 260px;
-  height: 100px;
-  margin-right: 1%;
+.sponsorLogoBanner {
+  text-align: center;
 }
 
-#aircbanner {
-  margin-bottom: 2%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.sponsorLogo {
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 300px;
   height: 100px;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
+
+#belief2024link {
+  margin-bottom: 2%;
+  text-align: center;
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */
@@ -256,30 +259,19 @@ span {
     margin-bottom: 2%;
   }
 
-  #airclogo {
+  .sponsorLogo {
     margin-top: 1%;
-    width: 225px;
+    margin-left: 1%;
+    width: 300px;
     height: 100px;
     margin-right: 1%;
     margin-bottom: 2%;
-  }
-
-  #aircbanner {
-    margin-bottom: 2%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
   }
 
   .safebelfastbody {
     height: 200px;
   }
 
-  #belief2024link {
-    margin-bottom: 5%;
-    text-align: center;
-  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -333,31 +325,10 @@ span {
     margin-bottom: 2%;
   }
 
-  #airclogo {
-    margin-top: 1%;
-    width: 225px;
-    height: 100px;
-    margin-right: 1%;
-    margin-bottom: 2%;
-  }
-
-  #aircbanner {
-    margin-bottom: 2%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-  }
-
   .safebelfastbody {
     height: 200px;
   }
 
-  #belief2024link {
-    margin-top: -2%;
-    margin-bottom: 3%;
-    text-align: center;
-  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -409,30 +380,10 @@ span {
     margin-right: 1%;
   }
 
-  #airclogo {
-    margin-top: 1%;
-    width: 260px;
-    height: 100px;
-    margin-right: 1%;
-  }
-
-  #aircbanner {
-    margin-bottom: 2%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-  }
-
   .safebelfastbody {
     height: 155px;
   }
 
-  #belief2024link {
-    margin-top: -1%;
-    margin-bottom: 2%;
-    text-align: center;
-  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -484,30 +435,10 @@ span {
     margin-right: 1%;
   }
 
-  #airclogo {
-    margin-top: 1%;
-    width: 260px;
-    height: 100px;
-    margin-right: 1%;
-  }
-
-  #aircbanner {
-    margin-bottom: 2%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-  }
-
   .safebelfastbody {
     height: 155px;
   }
 
-  #belief2024link {
-    margin-top: -1%;
-    margin-bottom: 2%;
-    text-align: center;
-  }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -559,30 +490,6 @@ span {
     margin-right: 1%;
   }
 
-  #airclogo {
-    margin-top: 1%;
-    width: 260px;
-    height: 100px;
-    margin-right: 1%;
-  }
-
-  #aircbanner {
-    margin-bottom: 2%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-  }
-
-  .safebelfastbody {
-    height: 155px;
-  }
-
-  #belief2024link {
-    margin-top: -1%;
-    margin-bottom: 2%;
-    text-align: center;
-  }
 }
 
 #egg {
