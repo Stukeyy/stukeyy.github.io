@@ -148,6 +148,11 @@ body {
   text-align: center;
 }
 
+.subguidelines {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
 /* This is especially for tpewriter effect on index page city hall banner, dont assign span to any other tags - sorry! */
 span {
   border-right: 0.05em solid;
